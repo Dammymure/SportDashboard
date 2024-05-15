@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+*{
+font-family: 'Inter', sans-serif;
+}
+
+#talkbubble {
+ /* width: 80px;
+ height: 30px; */
+ background: #141e36;
+ position: relative;
+ -moz-border-radius: 3px;
+ -webkit-border-radius: 3px;
+ border-radius: 3px;
+ align-items: center;
+ text-align: center;
+ padding: 2px;
+ text-decoration: white;
+ border: white 1px thin solid;
+}
+
+#talkbubble:before {
+ content: "";
+ position: absolute;
+ right: 100%;
+ top:8px;
+ width: 0;
+ height: 0;
+ border-top: 5px solid transparent;
+ border-right: 5px solid #ffffff38;
+ border-bottom: 5px solid transparent;
+ 
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
